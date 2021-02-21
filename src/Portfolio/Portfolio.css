@@ -1,0 +1,12 @@
+.Portfolio {
+  width: 630px;
+}
+
+.Portfolio-Item {
+  width: 200px;
+  margin: 5px;
+}
+
+.Portfolio-Toolbar {
+  margin: 5px;
+}

@@ -1,0 +1,20 @@
+.Toolbar {
+  display: flex;
+
+  align-items: flex-start;
+}
+
+.Toolbar-Filter {
+  padding: 8px 10px;
+  margin-right: 5px;
+
+  border: 1px #333 solid;
+
+  cursor: pointer;
+}
+
+.Toolbar-Filter:hover,
+.Toolbar-Filter_Selected {
+  color: #fff;
+  background-color: #333;
+}
