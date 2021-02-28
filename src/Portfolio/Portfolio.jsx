@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { PropTypes } from 'prop-types';
-import nanoId from 'nano-id';
 
 import Masonry from 'react-masonry-component';
 import Toolbar from '../Toolbar/Toolbar';
@@ -40,9 +39,9 @@ export default function Portfolio({ portfolio }) {
         elementType={'div'}
         options={masonryOptions}
       >
-        {filteredPortfolio.map(item => (
+        {filteredPortfolio.map((item, index) => (
           <img
-            key={nanoId(13)}
+            key={index}
             className="Portfolio-Item"
             alt={item.category}
             src={item.img}
